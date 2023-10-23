@@ -28,7 +28,7 @@ function App() {
         setData(result) 
     }
     useEffect(()=>{
-        fetch('http://localhost:3001/')
+        fetch('https://fullstack-first-server.vercel.app/')
         .then(data=>data.json())
         .then(data=>{
             console.log(data)

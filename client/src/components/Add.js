@@ -49,7 +49,7 @@ function Add ({postData}){
     return (
         <>
         <Wrapper>
-            <form onSubmit={(e)=>postData(e,'http://localhost:3001/')}>
+            <form onSubmit={(e)=>postData(e,'https://fullstack-first-server.vercel.app/')}>
                 <input type="text" name='name'/>
                 <input type="tel" name="salary" />
                 <button type='submit'> Додати </button>

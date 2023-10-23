@@ -5,13 +5,13 @@ const cors = require('cors')
 app.use(cors())
 app.use(express.urlencoded({ extended:false }))
 app.use(express.json())
-const db = mysql.createConnection({
+const db = mysql.createPool({
     host:'bin0mkfwgmbvc4yl0pkl-mysql.services.clever-cloud.com',
     user:'uqdhifaytkzqp9qq',
     password:"BQCUIh5LDsJ0VwpX2kFy",
     database:"bin0mkfwgmbvc4yl0pkl"
 })
-db.connect((err)=>{
+db.getConnection((err)=>{
    
 })
 app.get('/',(req,result)=>{
