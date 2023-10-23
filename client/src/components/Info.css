@@ -1,0 +1,24 @@
+.header {
+ height: 200px;
+
+}
+.wrapper {
+    width: 1000px;
+    margin:20px auto;
+    background-color: rgb(191, 0, 255);
+    color: #000000;
+    border-radius: 8px;
+
+}
+.header__title {
+    padding: 10px 10px 0px 20px;
+    font-size:42px
+}
+.header__subtitle {
+    padding: 10px 0px 10px 20px;
+    font-size:35px
+}
+.header__text {
+    padding: 10px 0px 20px 20px;
+    font-size:29px
+}

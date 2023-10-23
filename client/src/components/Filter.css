@@ -1,0 +1,15 @@
+.filter{
+    width: 1000px;
+    margin:20px auto;
+    background-color: rgb(191, 0, 255);
+    color: #000000;
+    border-radius: 4px;
+    height: 140px;
+}
+.filter__chearch{
+    width: 780px;
+    height: 40px;
+    border-radius: 7px;
+    border:none;
+    margin: 20px 0px 20px 20px  ;
+}

@@ -1,0 +1,16 @@
+.item {
+    margin: 10px auto;
+    background-color: white;
+    width: 900px;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.item__name {
+    font-size: 25px;
+}
+.item__salary {
+    font-size: 25px;
+}
